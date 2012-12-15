@@ -15,7 +15,7 @@ namespace ChickenEditor
         public MainForm()
         {
             
-
+            //new line1
 
 
             //
@@ -66,7 +66,7 @@ namespace ChickenEditor
 
         private void moveLeft1_Click(object sender, EventArgs e)
         {
-            levelControl1.MoveItem(-(int)step1.Value, 0);
+            levelControl1.MoveItem(-(int)step1.Value, 0); //changed line
         }
 
         private void moveRight1_Click(object sender, EventArgs e)
