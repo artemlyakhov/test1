@@ -40,7 +40,7 @@ namespace MConverter
 
         }
 
-
+// change
         private void convert1_Click(object sender, EventArgs e)
         {
             BmpPngConverter.Convert(int.Parse(x1.Text), int.Parse(y1.Text));

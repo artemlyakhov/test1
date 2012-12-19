@@ -15,7 +15,7 @@ namespace MConverter
             return files.Length;
         }
 
-
+//change
         public static void Convert(int x, int y)
         {
             string mask = "xa*.bmp";
